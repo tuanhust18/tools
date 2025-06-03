@@ -14,7 +14,7 @@ class FilterWithTimeApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Data Analysis - ©TT Nguyen 2025. All rights reserved.")
-        self.root.geometry("600x440")
+        self.root.geometry("600x450")
         self.df = None
         self.filename = None
         self.last_save_path = None
